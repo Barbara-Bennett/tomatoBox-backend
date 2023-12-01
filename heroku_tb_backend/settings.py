@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'boxes.apps.BoxesConfig',
     'producers.apps.ProducersConfig',
+    'merchants.apps.MerchantsConfig',
     'corsheaders',
     'rest_framework',
 ]
