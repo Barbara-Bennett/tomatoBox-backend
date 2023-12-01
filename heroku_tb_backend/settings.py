@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'boxes.apps.BoxesConfig',
+    'producers.apps.ProducersConfig',
     'corsheaders',
     'rest_framework',
 ]
@@ -80,16 +81,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'heroku_tb_backend.wsgi.application'
 
-
-# Database
-# https://docs.djangoproject.com/en/4.1/ref/settings/#databases
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
 
 DATABASES = {
     'default': {
