@@ -1,0 +1,1 @@
+web gunicorn heroku_tb_backend.wsgi:application --log-file -
